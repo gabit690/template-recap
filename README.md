@@ -8,6 +8,10 @@ Feel free to edit the template or take it as reference.
 ---
 [ DESCRIPTION ]
 
+## **Thanks**
+---
+[ DESCRIPTION ]
+
 ## **Author**
 ---
 **Username:** [ USERNAME ]
