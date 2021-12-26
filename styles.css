@@ -19,6 +19,7 @@ main {
 
 #button-start {
     position: absolute;
+    display: none;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -29,15 +30,14 @@ main {
 }
 
 #scene {
-    min-height: 560px;
-    height: 80%;
+    height: 90%;
+
 }
 
 #proscenium {
     position: relative;
-    min-height: 80px;
-    height: 20%;
-    background-color: #eee;
+    height: 10%;
+    background-color: black;
     background-image: 
         linear-gradient(
             90deg, 
@@ -60,47 +60,29 @@ main {
             black 50%
         );
     background-size: 
+        calc(100% / 8) 5%, 
         calc(100% / 8) 10%, 
         calc(100% / 8) 20%, 
-        calc(100% / 8) 40%, 
-        calc(100% / 8) 80%;
+        calc(100% / 8) 40%;
     background-position: 
-        0px 0px, 
-        0px 10%, 
-        0px 20%, 
-        0px 40%;
+        0px 0%, 
+        0px 5%, 
+        0px 18%, 
+        0px 57%;
     background-repeat: repeat-x;
-}
-
-#proscenium::before {
-    position: absolute;
-    content: '';
-    top: 0;
-    width: 100%;
-    height: 1%;
-    background-color: black;
-}
-
-#proscenium::after {
-    position: absolute;
-    content: '';
-    bottom: 0;
-    width: 100%;
-    height: 15%;
-    background-color: black;
+    border-top: 0.4vh solid black;
 }
 
 footer {
     position: absolute;
     bottom: 0;
     right: 0;
-    padding-right: 10px;
-    padding-bottom: 5px;
+    padding-right: 15px;
 }
 
 #copyright {
-    background-color: black;
     color: white;
+    font-size: 0.9rem;
     opacity: 0.5;
 }
 
