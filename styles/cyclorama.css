@@ -1,7 +1,6 @@
 #cyclorama {
     height: 100%;
     background-color: #fee9a8;
-    visibility: hidden;
     z-index: 3;
 }
 
@@ -46,7 +45,6 @@ figcaption {
     justify-content: center;
     align-items: flex-end;
     height: 20%;
-    color: #e24000;
     color: #6be6eb;
     text-align: center;
     font-family: Ubuntu, sans-serif;
