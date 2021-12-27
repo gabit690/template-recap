@@ -34,21 +34,26 @@
 }
 
 #screen {
-    display: block;
     width: 100%;
     height: 80%;
     border: 0.5vh solid black;
 }
 
 figcaption {
-    height: 20%;
-    background-color: red;
-}
-
-figcaption {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    height: 20%;
     color: #e24000;
-    color: #5aede3;
+    color: #6be6eb;
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    font-size: 3.5vh;
+    text-shadow: 
+        -1px 0px 1px black, 
+        1px 0px 1px black, 
+        0px 1px 1px black,
+        0px -1px 1px black;
+    font-weight: bold;
 }
