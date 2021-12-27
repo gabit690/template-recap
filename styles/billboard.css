@@ -1,0 +1,44 @@
+#billboard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    min-width: 250px;
+    height: 20%;
+    min-height: 100px;
+    border: 2vh dotted #ffffed;
+    outline: 1vh solid rgb(239, 239, 239);
+    font-family: Ubuntu, sans-serif;
+    font-size: 4vh;
+    font-weight: bolder;
+    box-shadow: 0px 5px 10px 15px black;
+    cursor: pointer;
+    z-index: 6;
+    /* animation-name: up-billboard;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-fill-mode: forwards; */
+}
+
+#billboard:hover {
+    border-color:#ffffa1;
+    box-shadow: 0px 5px 7px 12px black;
+}
+
+.billboard-activated {
+    border-color:#ffffa1;
+    box-shadow: 0px 5px 7px 12px black;
+}
+
+@keyframes up-billboard {
+    from {    
+        top: 50%;
+        left: 50%;
+    }
+    to {
+        top: -12%;
+        left: 50%;
+    }
+}
