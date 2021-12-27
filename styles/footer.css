@@ -1,0 +1,16 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 15px;
+}
+
+#copyright {
+    color: white;
+    font-size: 0.9rem;
+    opacity: 0.5;
+}
+
+#copyright:hover {
+    opacity: 1;
+}

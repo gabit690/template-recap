@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>[TEMPLATE]</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/structure.css">
+    <link rel="stylesheet" href="styles/button_start.css">
+    <link rel="stylesheet" href="styles/cyclorama.css">
+    <link rel="stylesheet" href="styles/proscenium.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body>
     <button id="button-start">[TITLE]</button>
@@ -13,14 +17,18 @@
         <section id="stage" tabindex="0">
             <section id="scene" tabindex="0">
                 <div id="main-drape" tabindex="0"></div>
-                <div id="cyclorama" tabindex="0">
+                <div id="cyclorama" class="flex-centered-content" tabindex="0">
                     <figure id="chapter" tabindex="0">
                         <img
-                            src="#"
+                            id="screen"
+                            src="img/descarga.png"
                             alt="description"
                             tabindex="0"
                         >
-                        <figcaption tabindex="0">[IMAGE CAPTION]</figcaption>
+                        <figcaption 
+                            tabindex="0">
+                                [Description of image]
+                        </figcaption>
                     </figure>
                 </div>
             </section>
