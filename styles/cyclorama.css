@@ -1,6 +1,8 @@
 #cyclorama {
     height: 100%;
     background-color: #fee9a8;
+    visibility: hidden;
+    z-index: 3;
 }
 
 #chapter {

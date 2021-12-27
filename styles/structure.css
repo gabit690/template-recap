@@ -23,7 +23,8 @@ main {
 }
 
 #scene {
-    height: 90%;
+    position: relative;
+    height: 85%;
 }
 
 .flex-centered-content {
