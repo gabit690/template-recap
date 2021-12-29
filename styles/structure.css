@@ -10,11 +10,16 @@ body {
     height: 100vh;
     min-width: 360px;
     min-height: 640px;
+    background-color: black;
 }
 
 main {
     position: relative;
+    width: 100%;
+    max-width: 1920px;
+    max-height: 1200px;
     height: 100%;
+    overflow: hidden;
 }
 
 #stage {

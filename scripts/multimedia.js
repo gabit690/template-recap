@@ -17,9 +17,9 @@ const setGoDownDrape = (mainDrape) => {
 
 window.addEventListener('DOMContentLoaded', () => {
     const billboardButton = document.getElementById("billboard");
-    const mainDrape = document.getElementById("main-drape");
     billboardButton.addEventListener("click", () => {
         if (billboardButton.classList.length === 0) {
+            const mainDrape = document.getElementById("main-drape");
             billboardButton.classList.add("lift-up-billboard");
             mainDrape.classList.add("lift-up-drape");
             addAudioToBody("./audio/smb3.mp3");
