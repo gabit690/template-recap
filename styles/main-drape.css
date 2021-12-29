@@ -1,5 +1,6 @@
 #main-drape {
     position: absolute;
+    top: 0%;
     width: 100%;
     height: 100%;
     background-color: #e24000;;
@@ -40,4 +41,36 @@
     background-image: radial-gradient(at top, black 72%, transparent 72%);
     background-size: calc(100% / 16) 100%;
     background-position: -50% 0px;
+}
+
+.lift-up-drape {
+    animation-name: lift-up-drape;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes lift-up-drape {
+    from {    
+        top: 0%;
+    }
+    to {
+        top: -92%;
+    }
+}
+
+.go-down-drape {
+    animation-name: go-down-drape;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes go-down-drape {
+    from {    
+        top: -92%;
+    }
+    to {
+        top: 0%;
+    }
 }

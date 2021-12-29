@@ -15,11 +15,6 @@
     box-shadow: 0px 5px 10px 15px black;
     cursor: pointer;
     z-index: 6;
-    /* animation-name: up-billboard;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-delay: 0s;
-    animation-fill-mode: forwards; */
 }
 
 #billboard:hover {
@@ -27,18 +22,22 @@
     box-shadow: 0px 5px 7px 12px black;
 }
 
-.billboard-activated {
-    border-color:#ffffa1;
+.lift-up-billboard {
+    border-color: #ffffa1 !important;
     box-shadow: 0px 5px 7px 12px black;
+    animation-name: lift-up-billboard;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
 
-@keyframes up-billboard {
+@keyframes lift-up-billboard {
     from {    
         top: 50%;
         left: 50%;
     }
     to {
-        top: -12%;
+        top: -11%;
         left: 50%;
     }
 }
