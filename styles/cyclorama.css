@@ -2,7 +2,7 @@
     height: 100%;
     background-color: #fee9a8;
     z-index: 3;
-    visibility: hidden;
+    opacity: 0;
 }
 
 #chapter {
@@ -57,4 +57,68 @@ figcaption {
         0px 1px 1px black,
         0px -1px 1px black;
     font-weight: bold;
+}
+
+.show-cyclorama-3 {
+    animation-name: show-cyclorama;
+    animation-duration: calc(52s / 3);
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+}
+
+.show-cyclorama-4 {
+    animation-name: show-cyclorama;
+    animation-duration: calc(52s / 4);
+    animation-timing-function: linear;
+    animation-iteration-count: 4;
+}
+
+.show-cyclorama-5 {
+    animation-name: show-cyclorama;
+    animation-duration: calc(52s / 5);
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+}
+
+.show-cyclorama-6 {
+    animation-name: show-cyclorama;
+    animation-duration: calc(52s / 6);
+    animation-timing-function: linear;
+    animation-iteration-count: 6;
+}
+
+.show-cyclorama-7 {
+    animation-name: show-cyclorama;
+    animation-duration: calc(52s / 7);
+    animation-timing-function: linear;
+    animation-iteration-count: 7;
+}
+
+.show-cyclorama-8 {
+    animation-name: show-cyclorama;
+    animation-duration: calc(52s / 8);
+    animation-timing-function: linear;
+    animation-iteration-count: 8;
+}
+
+@keyframes show-cyclorama {
+    0% {
+        opacity: 0;
+        filter: grayscale(1);
+    }
+    10%, 20% {
+        opacity: 1;
+        filter: grayscale(1);
+    }
+    30%, 70% {
+        opacity: 1;
+        filter: grayscale(0);
+    }
+    80%, 90% {
+        opacity: 1;
+        filter: grayscale(1);
+    }
+    100% {
+        opacity: 0;
+    }
 }

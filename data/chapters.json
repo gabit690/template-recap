@@ -1,0 +1,42 @@
+[
+    {
+        "src": "./img/example.jpg",
+        "alt": "Rectangle with the word 'image example'",
+        "description": "Image example 1"
+    },
+    {
+        "src": "./img/example.jpg",
+        "alt": "Rectangle with the word 'image example'",
+        "description": "Image example 2"
+    },
+    {
+        "src": "./img/example.jpg",
+        "alt": "Rectangle with the word 'image example'",
+        "description": "Image example 3"
+    },
+    {
+        "src": "./img/example.jpg",
+        "alt": "Rectangle with the word 'image example'",
+        "description": "Image example 4"
+    },
+    {
+        "src": "./img/example.jpg",
+        "alt": "Rectangle with the word 'image example'",
+        "description": "Image example 5"
+    },
+    {
+        "src": "./img/example.jpg",
+        "alt": "Rectangle with the word 'image example'",
+        "description": "Image example 6"
+    },
+    {
+        "src": "./img/example.jpg",
+        "alt": "Rectangle with the word 'image example'",
+        "description": "Image example 7"
+    },
+    {
+        "src": "./img/example.jpg",
+        "alt": "Rectangle with the word 'image example'",
+        "description": "Image example 8"
+    }
+]
