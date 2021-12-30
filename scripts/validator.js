@@ -6,8 +6,12 @@ const numberOfImagesValid = (number) => {
     return number >= 3 && number <= 8;
 }
 
-const descriptionLengthValid = (description) => {
-    return  description <= 40;
+const descriptionLengthValid = (length) => {
+    return  length <= 40;
+}
+
+const finalMessageValid = (finalMessage) => {
+    return finalMessage.length <= 30;
 }
 
 const allDescriptionLengthValid = (data) => {
@@ -17,8 +21,9 @@ const allDescriptionLengthValid = (data) => {
 const validCustomData = (data) => {
     let isTitleValid = billboardTitleValid(document.getElementById("billboard").innerText);
     let isNumberOfImagesValid = numberOfImagesValid(data.length);
-    let isDescriptionValid = allDescriptionLengthValid(data);
-    return isTitleValid && isNumberOfImagesValid && isDescriptionValid;
+    let areDescriptionsValid = allDescriptionLengthValid(data);
+    let isFinalMessageValid = finalMessageValid(document.getElementById("final-message").innerText);
+    return isTitleValid && isNumberOfImagesValid && areDescriptionsValid && isFinalMessageValid;
 }
 
 export default {
@@ -26,5 +31,6 @@ export default {
     numberOfImagesValid,
     descriptionLengthValid,
     validCustomData,
+    finalMessageValid,
     allDescriptionLengthValid
 }

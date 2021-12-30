@@ -5,7 +5,7 @@ const errorBillboardTitle = () => {
             ?
             ""
             :
-            "<p>> The billboard title has more characters than 15 allowed.</p>";
+            "<p>> The BILLBOARD TITLE has more characters than 15 allowed.</p>";
 };
 
 const errorNumberOfImages = (number) => {
@@ -13,7 +13,15 @@ const errorNumberOfImages = (number) => {
             ?
             ""
             :
-            "<p>> The number of images must be between 3 and 8.</p>"
+            "<p>> The NUMBER OF IMAGES must be between 3 and 8.</p>"
+};
+
+const errorFinalMessage = () => {
+    return validator.finalMessageValid(document.getElementById("final-message").innerText)
+            ?
+            ""
+            :
+            "<p>> The FINAL MESSAGE has more characters than 30 allowed.</p>";
 };
 
 const addErrorWindow = (data) => {
@@ -36,7 +44,8 @@ const addErrorWindow = (data) => {
                 </p>
             `; 
         }
-    }
+    };
+    errorWindow.innerHTML += errorFinalMessage();
     document.body.prepend(errorWindow);
 };
 

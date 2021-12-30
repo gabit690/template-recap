@@ -1,20 +1,19 @@
 import addErrorWindow from "./error-window.js"
 import validator from "./validator.js"
+import setDrapeFunctionality from "./drape.js"
 import addAudioToBody from "./audio.js"
-import setCycloramaView from "./cyclorama.js"
-import setGoDownDrape from "./drape.js"
+import setCycloramaFunctionality from "./cyclorama.js"
+import setFinalMessageFunctionality from "./final-message.js"
 
 const setMultimediaContent = (imagesData) => {
     const billboardButton = document.getElementById("billboard");
     billboardButton.addEventListener("click", () => {
         if (billboardButton.classList.length === 0) {
             billboardButton.classList.add("lift-up-billboard");
-            const mainDrape = document.getElementById("main-drape");
-            const cyclorama = document.getElementById("cyclorama");
-            mainDrape.classList.add("lift-up-drape");
+            setDrapeFunctionality();
             addAudioToBody("./audio/smb3.mp3");
-            setCycloramaView(cyclorama, imagesData.length);
-            setGoDownDrape(mainDrape);
+            setCycloramaFunctionality(imagesData.length);
+            setFinalMessageFunctionality();
         }
     });
 };

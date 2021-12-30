@@ -37,3 +37,16 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+.special-font {
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 
+    -1px 0px 1px black, 
+    1px 0px 1px black, 
+    0px 1px 1px black,
+    0px -1px 1px black;
+    font-weight: bold;
+    color: #6be6eb;
+}

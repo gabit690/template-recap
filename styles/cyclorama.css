@@ -3,6 +3,7 @@
     background-color: #fee9a8;
     z-index: 3;
     opacity: 0;
+    filter: grayscale(1);
 }
 
 #chapter {
@@ -46,17 +47,7 @@ figcaption {
     justify-content: center;
     align-items: flex-end;
     height: 20%;
-    color: #6be6eb;
-    text-align: center;
-    font-family: Ubuntu, sans-serif;
-    text-transform: uppercase;
     font-size: 3.5vh;
-    text-shadow: 
-        -1px 0px 1px black, 
-        1px 0px 1px black, 
-        0px 1px 1px black,
-        0px -1px 1px black;
-    font-weight: bold;
 }
 
 .show-cyclorama-3 {
@@ -120,5 +111,6 @@ figcaption {
     }
     100% {
         opacity: 0;
+        filter: grayscale(1);
     }
 }

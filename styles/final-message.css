@@ -1,0 +1,25 @@
+#final-message {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    font-size: 5px;
+    z-index: 5;
+}
+
+.show-message {
+    display: block !important;
+    animation-name: show-message;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes show-message {
+    from {
+        font-size: 5px;
+    }
+    to {
+        font-size: 50px;
+    }
+}
