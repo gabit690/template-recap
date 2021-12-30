@@ -12,7 +12,7 @@ const setMultimediaContent = (imagesData) => {
             billboardButton.classList.add("lift-up-billboard");
             setDrapeFunctionality();
             addAudioToBody("./audio/smb3.mp3");
-            setCycloramaFunctionality(imagesData.length);
+            setCycloramaFunctionality(imagesData);
             setFinalMessageFunctionality();
         }
     });

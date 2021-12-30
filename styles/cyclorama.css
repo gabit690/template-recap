@@ -42,7 +42,7 @@
     border: 0.5vh solid black;
 }
 
-figcaption {
+#screen-caption {
     display: flex;
     justify-content: center;
     align-items: flex-end;
