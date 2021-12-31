@@ -33,7 +33,7 @@ Follow nexts guidelines for using data correctly.
 
 ## **Thanks**
 
-- To [Nintendo][nintendo] for creating the videogame Super mario bros 3.
+- To [Nintendo][nintendo] for creating the videogame Super mario bros. 3.
 - To [Henri][henri] on Youtube for their version of [game ending][cover] song.
 
 ## **Author**
@@ -46,4 +46,4 @@ Follow nexts guidelines for using data correctly.
 [nintendo]: https://www.nintendo.com/
 [henri]: https://www.youtube.com/channel/UC55qorWbwyPcUVPzh7iBU5w
 [cover]: https://www.youtube.com/watch?v=l5qNAMM7CpI
-[web]: ???
+[web]: https://ciao2021.netlify.app/
